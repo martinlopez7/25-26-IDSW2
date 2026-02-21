@@ -13,7 +13,7 @@ Persona es la clase principal
 - Educación académica
 - Gusto
 - Carácter 
-- Nacionalidad 
+- Nacion 
 - Rasgo físico
 - Idioma 
 - Persona(familiares y amigos) 
@@ -25,11 +25,11 @@ Persona es la clase principal
 |-|-|-|
 |COMPOSICIÓN|Persona y Carácter| El carácter de una persona muere si la persona muere. Su existencia queda a total dependencia de la persona.
 |COMPOSICIÓN|Persona y Edad| El tiempo de vida de una persona muere cuando esta muere.
-|COMPOSICIÓN|Persona y Género| El género de una persona es un rasgo intrínseco. No podrían vivir independientemente.
-|COMPOSICIÓN|Persona y Rasgo física| Si la persona muere sus rasgos físicos mueren.
-|AGREGACIÓN|Persona y Nombre| El nombre puede existir independientemente de la persona
-|AGREGACIÓN|Persona y Apellido| El apellido puesde existir independientemente de la persona
-|AGREGACIÓN|Persona y Nacionalidad| La nación a la que una persona pertenece existe independientemente de esa persona.
+|AGREGACIÓN|Persona y Rasgo físico| Si la persona muere su combinación de rasgos físicos muere, pero los rasgos físicos por separado no.
+|AGREGACIÓN|Persona y Género| El género masculino o femenino existe independientemente de si la persona que lo posee muere.
+|AGREGACIÓN|Persona y Nombre| El nombre puede existir independientemente de la persona.
+|AGREGACIÓN|Persona y Apellido| El apellido puesde existir independientemente de la persona.
+|AGREGACIÓN|Persona y Nacion| La nación a la que una persona pertenece existe independientemente de esa persona.
 |AGREGACIÓN|Persona y Idioma| Los idiomas que una persona habla son independientes de la persona.
 |AGREGACIÓN|Persona y Educación académica| La educación académica que recibe una persona sigue existiendo aunque la persona muera.
 |ASOCIACIÓN|Persona y Religión| La persona tiene una relación duradera con una religión y ambos existen independientemente.

@@ -32,7 +32,7 @@ class Gusto{
 class Caracter{
 }
 
-class Nacionalidad{
+class Nacion{
 }
 
 class RasgoFisico{
@@ -46,11 +46,11 @@ class Profesion{
 
 Persona *-- Caracter
 Persona *-- Edad
-Persona *-- Genero
-Persona *-- RasgoFisico
+Persona o-- RasgoFisico
+Persona o-- Genero
 Persona o-- Nombre
 Persona o-- Apellido
-Persona o-- Nacionalidad
+Persona o-- Nacion
 Persona o-- Idioma
 Persona o-- EducacionAcademica
 Persona --> Religion
